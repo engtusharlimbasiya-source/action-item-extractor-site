@@ -11,6 +11,7 @@ export function Hero() {
             A small web app by {AUTHOR}
           </p>
           <h1 className="text-balance text-4xl font-semibold tracking-tight md:text-5xl">Meeting notes in. Task list out.</h1>
+          <p className="mt-3 text-base font-medium text-primary">Now on GitHub</p>
           <p className="mt-6 max-w-xl text-pretty text-lg leading-relaxed text-muted-foreground">
             Turns messy stand-up and client-call notes into a clean task list. Paste the notes, and it pulls out every
             action item with its owner, due date and the exact sentence it came from.
