@@ -1,5 +1,5 @@
 import { ArrowRight, ArrowUpRight, FileText, ListChecks, HelpCircle } from 'lucide-react'
-import { AUTHOR, PROJECT_NAME, PROJECT_URL } from '@/lib/site'
+import { AUTHOR, PROJECT_URL } from '@/lib/site'
 
 export function Hero() {
   return (
@@ -10,7 +10,7 @@ export function Hero() {
             <span className="size-1.5 rounded-full bg-primary" aria-hidden="true" />
             A small web app by {AUTHOR}
           </p>
-          <h1 className="text-balance text-4xl font-semibold tracking-tight md:text-5xl">{PROJECT_NAME}</h1>
+          <h1 className="text-balance text-4xl font-semibold tracking-tight md:text-5xl">Meeting notes in. Task list out.</h1>
           <p className="mt-6 max-w-xl text-pretty text-lg leading-relaxed text-muted-foreground">
             Turns messy stand-up and client-call notes into a clean task list. Paste the notes, and it pulls out every
             action item with its owner, due date and the exact sentence it came from.
